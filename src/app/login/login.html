@@ -1,2 +1,9 @@
 <p>Hi, I am a login Page</p>
 <button (click)="clickMe()">Click Me</button>
+<p>Entered Text is : {{userName}}</p>
+<input type="text" (input)="getUserName($event)" [value]="userName" #userNameField>
+<br>
+<button (click)="setText()">Set Text</button>
+<button (click)="getUserNameWithTemplate(userNameField.value)">
+  Set Text (Template Ref)
+</button>
