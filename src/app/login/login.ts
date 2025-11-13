@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './login.css',
 })
 export class Login {
-
+  clickMe(){
+    console.log("Button is Clicked")
+  }
 }
