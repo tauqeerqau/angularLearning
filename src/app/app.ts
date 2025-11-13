@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Login } from './login/login';
+import { Counter } from './counter/counter';
 
 @Component({
   selector: 'app-root',
-  imports: [Login],
+  imports: [Login,Counter],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
