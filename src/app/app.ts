@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = 'First angular 20';
-  name = 'Tauqeer from QAU'
+  users = ['Tauqeer','Ali','Umer']
+  count = this.users.length
 }

@@ -1,3 +1,6 @@
-<h1>Hello Angular 20</h1>
-<p>{{title}}</p>
-<h2>{{name}}</h2>
+<p>Array Elements</p>
+@for (user of users; track $index) {
+    {{user}}
+    <br>
+}
+Total number of Elements are {{count}}
