@@ -8,6 +8,7 @@ import { MyCode } from './my-code/my-code';
 
 export const routes: Routes = [
     {path:'login',component:Login},
+    {path:'',component:Login},
     {path:'about',component:About},
     {path:'contact',component:Contact},
     {path:'counterApp',component:Counter},

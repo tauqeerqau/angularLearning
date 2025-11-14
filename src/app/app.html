@@ -1,18 +1,18 @@
 <ul>
     <li>
-        <a routerLink="login">Login</a>
+        <a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="login">Login</a>
     </li>
     <li>
-        <a routerLink="about">About</a>
+        <a routerLinkActive="active" routerLink="about">About</a>
     </li>
     <li>
-        <a routerLink="contact">Contact</a>
+        <a routerLinkActive="active" routerLink="contact">Contact</a>
     </li>
     <li>
-        <a routerLink="counterApp">Counter App</a>
+        <a routerLinkActive="active" routerLink="counterApp">Counter App</a>
     </li>
     <li>
-        <a routerLink="my-code">My Code</a>
+        <a routerLinkActive="active" routerLink="my-code">My Code</a>
     </li>
 </ul>
 <router-outlet></router-outlet>
