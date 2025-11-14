@@ -5,6 +5,7 @@ import { Contact } from './contact/contact';
 import { Counter } from './counter/counter';
 import { Component } from '@angular/core';
 import { MyCode } from './my-code/my-code';
+import { NoPageFound } from './no-page-found/no-page-found';
 
 export const routes: Routes = [
     {path:'login',component:Login},
@@ -12,5 +13,6 @@ export const routes: Routes = [
     {path:'about',component:About},
     {path:'contact',component:Contact},
     {path:'counterApp',component:Counter},
-    {path:'my-code', component:MyCode}
+    {path:'my-code', component:MyCode},
+    {path:'**', component:NoPageFound}
 ];
